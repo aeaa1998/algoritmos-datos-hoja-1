@@ -44,6 +44,16 @@ class Radio implements RadioInterface {
         view.print("Su frecuencia actual es: " + this.frequency.getType());
     }
 
+    public void cambiarFrecuencia(String type){
+        view.print("Su frecuencia actual es: " + this.frequency.getType());
+        this.frequency = type.equalsIgnoreCase("AM") ? this.amStation : this.fmStation;
+        view.print("Su frecuencia actual es: " + this.frequency.getType());
+    }
+
+    public Frequency getFrequency(){
+        return this.frequency;
+    }
+
 
     public void avanzar(){
         this.frequency.forwardStation();

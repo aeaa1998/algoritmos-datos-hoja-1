@@ -19,6 +19,7 @@ public class Frequency {
 
     public Frequency(String type){
         this.type = type;
+
     }
 
     public String getType() {

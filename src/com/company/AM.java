@@ -7,8 +7,8 @@ public class AM extends Frequency{
         super("AM");
 
         for (double i = 530; i <= 1610; i += 10) {
-
             stations.add(i);
         }
+        setStation(stations.get(0));
     }
 }

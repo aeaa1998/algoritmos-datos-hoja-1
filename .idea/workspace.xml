@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0841700d-9ea2-4c49-a3af-4a08de7eaf8e" name="Default Changelist" comment="" />
+    <list default="true" id="0841700d-9ea2-4c49-a3af-4a08de7eaf8e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/RadioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/H1Algoritmos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/H1Algoritmos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/AM.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/AM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/FM.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/FM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/Frequency.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/Frequency.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/RadioButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/RadioButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/FM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/FM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Frequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Frequency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Radio.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,14 +25,41 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1WaHuFwgWWUt7H1ZzAQLKxy7bsZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/company" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.company" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/company" />
     </key>
@@ -35,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.RadioTest.avanzar">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="H1Algoritmos" />
@@ -46,8 +87,83 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RadioTest.avanzar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="H1Algoritmos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.RadioTest" />
+      <option name="METHOD_NAME" value="avanzar" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadioTest.cambiarFrecuencia" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="H1Algoritmos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.RadioTest" />
+      <option name="METHOD_NAME" value="cambiarFrecuencia" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadioTest.estacionActual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="H1Algoritmos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.RadioTest" />
+      <option name="METHOD_NAME" value="estacionActual" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RadioTest.onOff" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="H1Algoritmos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.RadioTest" />
+      <option name="METHOD_NAME" value="onOff" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.RadioTest.estacionActual" />
+      <item itemvalue="JUnit.RadioTest.onOff" />
+      <item itemvalue="JUnit.RadioTest.cambiarFrecuencia" />
+      <item itemvalue="JUnit.RadioTest.avanzar" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RadioTest.avanzar" />
+        <item itemvalue="JUnit.RadioTest.cambiarFrecuencia" />
+        <item itemvalue="JUnit.RadioTest.onOff" />
+        <item itemvalue="JUnit.RadioTest.estacionActual" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -64,5 +180,16 @@
       <updated>1579381005412</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
