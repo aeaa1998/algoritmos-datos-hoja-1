@@ -28,66 +28,8 @@ public class View {
         this.print(text);
         return scanner.nextLine();
     }
-    public double doubleInput(String text, String text2, Double minimum){
-        boolean valid = true;
-        double value = 0.0;
-        while (valid)
-        {
-            System.out.println(text);
-            String valueString = scanner.nextLine();
-            try{
-                value = Float.parseFloat(valueString);
-                valid = value <= 0.0 || value < minimum;
-                if (valid) {
-                    System.out.println(text2);
-                }
 
-            }
-            catch (Exception e) {
-                System.out.println("Ingrese un valor double");
-            }
-        }
-        return value;
-    }
 
-    public float floatInput(String text, String text2, Float minimum){
-        boolean valid = true;
-        float value = 0f;
-        while (valid)
-        {
-            System.out.println(text);
-            String valueString = scanner.nextLine();
-            try{
-                value = Float.parseFloat(valueString);
-                valid = value <= 0f || value < minimum;
-                if (valid) {
-                    System.out.println(text2);
-                }
-            }
-            catch (Exception e) {
-                System.out.println("Ingrese un valor float");
-            }
-        }
-        return value;
-    }
-
-    public float floatInput(String text){
-        boolean valid = true;
-        float value = 0f;
-        while (valid)
-        {
-            System.out.println(text);
-            String valueString = scanner.nextLine();
-            try{
-                value = Float.parseFloat(valueString);
-                valid = false;
-            }
-            catch (Exception e) {
-                System.out.println("Ingrese un valor float");
-            }
-        }
-        return value;
-    }
 
     private int intInput(String text, String text2, int minimum){
         boolean valid = true;
@@ -109,66 +51,8 @@ public class View {
         }
         return value;
     }
-    public int intPositiveInput(String text, String text2){
-        boolean valid = true;
-        int value = 0;
-        while (valid)
-        {
-            System.out.println(text);
-            String valueString = scanner.nextLine();
-            try{
-                value = Integer.parseInt(valueString);
-                valid = value <= 0;
-                if (valid) {
-                    System.out.println(text2);
-                }
-            }
-            catch (Exception e) {
-                System.out.println("Ingrese un valor integer");
-            }
-        }
-        return value;
-    }
 
-    public int intPositiveInput(String text, String text2, int _maximum){
 
-        boolean valid = true;
-        int value = 0;
-        while (valid)
-        {
-            System.out.println(text);
-            String valueString = scanner.nextLine();
-            try{
-                value = Integer.parseInt(valueString);
-                valid = value <= 0 || value > _maximum;
-                if (valid) {
-                    System.out.println(text2);
-                }
-            }
-            catch (Exception e) {
-                System.out.println("Ingrese un valor integer");
-            }
-        }
-        return value;
-    }
-
-    public int intInput(Scanner scanner, String text){
-        boolean valid = true;
-        int value = 0;
-        while (valid)
-        {
-            System.out.println(text);
-            String valueString = scanner.nextLine();
-            try{
-                value = Integer.parseInt(valueString);
-                valid = false;
-            }
-            catch (Exception e) {
-                System.out.println("Ingrese un valor integer");
-            }
-        }
-        return value;
-    }
 
     public String selectOptions(ArrayList<String> arrayList){
         String input = "";
@@ -240,24 +124,6 @@ public class View {
         }
         return value;
     }
-    public int selectKey(Map<Integer, String> map){
-        Scanner scanner = new Scanner(System.in);
-        Boolean valid = true;
-        int value;
 
-        ArrayList<Integer> ids = new ArrayList<Integer>();
-        final int[] i = {0};
-        map.forEach((id, string) -> {
-            System.out.print((i[0] +1) + ". " + string + "\n");
-
-            ids.add(id);
-            i[0]++;
-        });
-
-
-        value = this.intPositiveInput("Ingrese el numero de opcion que desee.", "No puede ser mayor a " + map.size(), map.size());
-
-        return ids.get(value - 1);
-    }
 
 }
