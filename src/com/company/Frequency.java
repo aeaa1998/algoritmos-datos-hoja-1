@@ -1,3 +1,8 @@
+/**
+ * @author Augsto Alonso 181085 y Angel Cuellar 18382
+ *
+ */
+
 package com.company;
 
 import java.math.BigDecimal;
@@ -17,11 +22,20 @@ public class Frequency {
         this.currentStation = stations.get(this.stationIndex);
     }
 
+    /**
+     *
+     * @param type se crean instancias del constructor
+     */
     public Frequency(String type){
         this.type = type;
 
     }
 
+    /**
+     * Getters
+     * @return el tipo de frecuencia, retorna un array con las estaciones
+     * retorna en cual estacion esta el usuario actualmente
+     */
     public String getType() {
         return type;
     }
@@ -36,6 +50,10 @@ public class Frequency {
         return station;
     }
 
+    /**
+     * este metodo nos sirve para mover al usuario hacia la siguiente estacion
+     * tomando en cuenta el patron que ya lleva
+     */
     void forwardStation(){
         this.stationIndex++;
         if (this.stationIndex == this.stations.size()) this.stationIndex = 0;
@@ -49,15 +67,15 @@ public class Frequency {
         return "Radio: " + this.type;
     }
 
+    /**
+     *
+     * @param station recibe la estacion ingresada por el usuario
+     */
     public void setStation(Double station){
         this.currentStation = station;
         this.stationIndex = stations.indexOf(station);
     }
-    public static double round(double value, int places) {
-        if (places < 0) throw new IllegalArgumentException();
 
-        BigDecimal bd = BigDecimal.valueOf(value);
-        bd = bd.setScale(places, RoundingMode.HALF_UP);
-        return bd.doubleValue();
+
     }
 }

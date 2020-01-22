@@ -1,3 +1,8 @@
+/**
+ * @author Augsto Alonso 181085 y Angel Cuellar 18382
+ *
+ */
+
 package com.company;
 
 import java.text.DecimalFormat;
@@ -6,7 +11,10 @@ import java.util.Arrays;
 import java.util.Map;
 import java.util.Scanner;
 
-
+/**
+ * esta clase tiene los metodos en los cuales los usuarios ingresan distintos tipos de
+ * elementos con sus respectivas defensas y mensajes para pedirlo nuevamente en caso de fallar
+ */
 public class View {
     private Scanner scanner;
 
