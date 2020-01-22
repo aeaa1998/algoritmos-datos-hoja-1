@@ -1,3 +1,8 @@
+/**
+ * @author Augsto Alonso 181085 y Angel Cuellar 18382
+ *
+ */
+
 package com.company;
 
 import java.util.ArrayList;
@@ -17,6 +22,9 @@ public class Controller {
         add("Salir");
     }};
 
+    /**
+     * menu de opciones
+     */
     public void init(){
         while (isRunningApp){
             int c = mainMenu.indexOf(mainMenu());
@@ -45,6 +53,11 @@ public class Controller {
             }
         }
     }
+
+    /**
+     *
+     * @return la opcion que escogio el usuario del menu
+     */
     private String mainMenu(){
         ArrayList<String> menuToShow = new ArrayList<>();
         this.mainMenu.forEach((menuItem) -> {

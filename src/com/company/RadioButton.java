@@ -1,3 +1,8 @@
+/**
+ * @author Augsto Alonso 181085 y Angel Cuellar 18382
+ *
+ */
+
 package com.company;
 
 import java.text.DecimalFormat;
@@ -11,6 +16,12 @@ class RadioButton{
         this.station = 0.0;
     }
 
+    /**
+     *
+     * @return se crean getters and setters de los tipos de precuencias
+     * y las estaciones para guardar la estacion en el boton ingresado
+     * por el usuario
+     */
     public Frequency getType() {
         return type;
     }
@@ -27,6 +38,11 @@ class RadioButton{
         this.station = station;
     }
 
+    /**
+     *
+     * @return un print el cual nos dice cuales son las estaciones que estan
+     * guardadas en los botones y si no tienen nada imprimen "no seteado"
+     */
     public String toString() {
         DecimalFormat df = new DecimalFormat("#.##");
         double stationC = Double.parseDouble(df.format(this.station));

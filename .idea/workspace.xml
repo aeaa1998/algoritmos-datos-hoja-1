@@ -2,7 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0841700d-9ea2-4c49-a3af-4a08de7eaf8e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Diagrama1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/H1Algoritmos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/H1Algoritmos.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/AM.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/AM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/Controller$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/Controller$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/FM.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/FM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/Frequency.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/Frequency.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/MainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/Radio$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/Radio$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/Radio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/Radio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/RadioButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/RadioButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/RadioInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/RadioInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/RadioTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/RadioTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/View.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/FM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/FM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Frequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Frequency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Radio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/RadioButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/RadioButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/RadioInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/RadioInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/View.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,11 +62,16 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/company" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -64,7 +96,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RadioTest.avanzar">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="H1Algoritmos" />
@@ -148,11 +180,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.RadioTest.avanzar" />
         <item itemvalue="JUnit.RadioTest.cambiarFrecuencia" />
         <item itemvalue="JUnit.RadioTest.onOff" />
         <item itemvalue="JUnit.RadioTest.estacionActual" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -166,8 +198,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579381005412</updated>
+      <workItem from="1579648027554" duration="8863000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
