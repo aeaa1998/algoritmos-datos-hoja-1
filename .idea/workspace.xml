@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0841700d-9ea2-4c49-a3af-4a08de7eaf8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/RadioTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/H1Algoritmos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/H1Algoritmos.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/AM.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/AM.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/FM.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/FM.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/Frequency.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/Frequency.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/RadioButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/RadioButton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/AM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/FM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/FM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Frequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Frequency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Radio.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -186,7 +174,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
