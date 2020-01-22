@@ -16,7 +16,7 @@ class Radio implements RadioInterface {
     /**
      * Se crea un arraylist con los botones del radio
      */
-    private ArrayList<RadioButton> buttons  = new ArrayList<>(){{
+    public ArrayList<RadioButton> buttons  = new ArrayList<>(){{
         for (int i = 0; i < 12; i++) {
             add(new RadioButton());
         }
