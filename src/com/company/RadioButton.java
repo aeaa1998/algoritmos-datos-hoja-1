@@ -3,8 +3,6 @@
  *
  */
 
-package com.company;
-
 import java.text.DecimalFormat;
 
 class RadioButton{

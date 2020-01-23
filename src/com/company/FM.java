@@ -3,8 +3,6 @@
  *
  */
 
-package com.company;
-
 
 public class FM extends Frequency{
     /**

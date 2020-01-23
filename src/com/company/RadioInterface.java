@@ -3,7 +3,6 @@
  *
  */
 
-package com.company;
 
 interface RadioInterface {
     /**

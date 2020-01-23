@@ -3,8 +3,6 @@
  *
  */
 
-package com.company;
-
 import java.util.ArrayList;
 
 class Radio implements RadioInterface {

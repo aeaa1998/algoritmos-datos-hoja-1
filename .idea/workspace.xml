@@ -2,19 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0841700d-9ea2-4c49-a3af-4a08de7eaf8e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/AM.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/AM.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/Controller$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/Controller$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/FM.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/FM.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/Frequency.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/Frequency.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/MainTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/Radio$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/Radio$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/Radio.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/Radio.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/RadioButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/RadioButton.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/H1Algoritmos/com/company/View.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/FM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/FM.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Frequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Frequency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Radio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/RadioButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/RadioButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/RadioInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/RadioInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/RadioTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/View.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -184,7 +183,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579381005412</updated>
-      <workItem from="1579648027554" duration="8863000" />
+      <workItem from="1579648027554" duration="9111000" />
+      <workItem from="1579751814394" duration="449000" />
     </task>
     <servers />
   </component>
