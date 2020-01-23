@@ -14,7 +14,7 @@ class Radio implements RadioInterface {
     /**
      * Se crea un arraylist con los botones del radio
      */
-    private ArrayList<RadioButton> buttons  = new ArrayList<>(){{
+    public ArrayList<RadioButton> buttons  = new ArrayList<>(){{
         for (int i = 0; i < 12; i++) {
             add(new RadioButton());
         }
@@ -36,6 +36,7 @@ class Radio implements RadioInterface {
 
     /**
      * Imprime en que estado se encuentra el radio
+     * Tambien cambia su estado
      */
     public void onOff(){
         this.state = !this.state;
@@ -65,6 +66,7 @@ class Radio implements RadioInterface {
     /**
      *
      * @param type ingresa a cual tipo de frecuencia se va a cambiar el usuario
+     * hace overload a la pasada porque en una esta de manera implicita el typo de frecuencia
      */
     public void cambiarFrecuencia(String type){
         view.print("Su frecuencia actual es: " + this.frequency.getType());
@@ -113,7 +115,7 @@ class Radio implements RadioInterface {
 
     /**
      *
-     * @param button recibe el numero de emisoara al que el usuario quiere cambiar
+     * @param button recibe el numero de emisoara y frecuencia al que el usuario quiere cambiar
      */
     public void seleccionarEmisora(int button){
         if (buttons.get(button).isValid()){

@@ -8,7 +8,11 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
-
+/**
+ *
+ * @class Frequency clase que se encarga de tener el comportamiento de una frecuencia de radio ya que ambas tienen
+ * el mismo funcionamiento
+ */
 public class Frequency {
     private String type;
     protected ArrayList<Double> stations = new ArrayList<>();
@@ -51,7 +55,7 @@ public class Frequency {
 
     /**
      * este metodo nos sirve para mover al usuario hacia la siguiente estacion
-     * tomando en cuenta el patron que ya lleva
+     * tomando en ultimo index de la estacion
      */
     void forwardStation(){
         this.stationIndex++;
@@ -68,7 +72,9 @@ public class Frequency {
 
     /**
      *
-     * @param station recibe la estacion ingresada por el usuario
+     * @param station recibe un valor de estacion para setear [this.currentStation] y guarda
+     * tambien trackea cual es su index correspondiente para poder tener la siguiente estacion cuando
+     * se necesite
      */
     public void setStation(Double station){
         this.currentStation = station;

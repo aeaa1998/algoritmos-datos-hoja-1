@@ -7,7 +7,8 @@
 public class FM extends Frequency{
     /**
      * se crea  un constructor donde se instancia un arrayList
-     * con las estaciones del tipo FM siguiendo un patron
+     * con las estaciones  y el constructor de Frecuencia indicando que su nombre o
+     * type sera FM
      */
     public FM(){
         super("FM");
